@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 #  gives you information about the school file.
 
-i="School" 
+i="school" 
 if [ -e $i ]; then
 	echo "$i file exists"
+
 	if [ -s $i ]; then
 		echo "$i file is not empty"
 	else
