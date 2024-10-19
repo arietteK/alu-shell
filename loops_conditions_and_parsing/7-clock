@@ -4,11 +4,11 @@
 #display minutes from 1 to 59
 
 var="Hour"
-i="0" 
+i=0
 while [ $i -lt 13 ];
 do
 	echo "$var :" "$i"
-	s="1"
+	s=1
 	while [ $s -lt 60 ];
 	do
 		echo "$s"
