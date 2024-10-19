@@ -12,13 +12,16 @@ while [ $i -lt 21 ];
 do
 	case $i in
 		4)
-			echo "$i" && "$var1"
+			echo "$i" 
+			echo "$var1"
 			;;
 		9)
-	                echo "$i" && "$var2"
+	                echo "$i" 
+			echo "$var2"
 			;;
 		17)
-		        echo "$i" && "$var3"
+		        echo "$i" 
+			echo "$var3"
 			;;
 		*)
 			echo "$i"
