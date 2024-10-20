@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display all currently running processes, even those without a TTY
+ps -faux
